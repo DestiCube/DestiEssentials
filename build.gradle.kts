@@ -34,12 +34,12 @@ dependencies {
 
 tasks {
     shadowJar {
-//        minimize()
         archiveFileName.set("${rootProject.name}-[v${rootProject.version}].jar")
 
         listOf("com.gamerduck.commons").forEach {
             relocate(it, "${rootProject.group}.commons")
         }
+//        minimize()
     }
 
     compileJava {
