@@ -1,0 +1,9 @@
+name: ${name}
+main: ${group}.CoreMain
+version: ${version}
+description: ${description}
+api-version: 1.19
+softdepend: [ Vault, PlaceholderAPI, ProtocolLib, LuckPerms, DestiPlaceholders ]
+loadbefore: [DestiFishing, QuickShop]
+libraries:
+  - mysql:mysql-connector-java:8.0.30

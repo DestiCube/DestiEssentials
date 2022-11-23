@@ -1,0 +1,167 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 General Shit                         | #
+# +------------------------------------------------------+ #
+############################################################
+StarterKit: starter
+Chat-Format: '%badges% %prefix%%displayname% &r%levels% : %message%'
+WelcomeMessage: ""
+JoinMessage: "<gray>[<green>+<gray>] %displayname%"
+LeaveMessage: "<gray>[<red>-<gray>] %displayname%"
+RandomTP:
+  World: Survival
+  Center:
+    x: 0
+    z: 0
+  Max: 4500
+  Min: 100
+MOTD:
+  - ""
+  - "   <white>Welcome to <red><b>BETA <gray>SURVIVAL</b>"
+  - ""
+  - "<gray>[<red><b>!</b><gray>] <red><b>Website</b> <dark_gray>» <gray>desticube.com"
+  - "<gray>[<red><b>!</b><gray>] <yellow><b>Discord</b> <dark_gray>» <gray>discord.desticube.com"
+  - "<gray>[<red><b>!</b><gray>] <green><b>Store</b> <dark_gray>» <gray>store.desticube.com"
+  - ""
+  - "<dark_gray>▣ <white>Claim your land <gray>to protect your items and build!"
+  - "<dark_gray>▣ <white>/menu <gray>will make it easier for you!"
+  - "<dark_gray>▣ <white>/vote <gray>everyday for a quick reward!"
+  - ""
+PlayerMySQL: # I still use SQL if you dont set this up
+  Enabled: false
+  AutoReconnect: false
+  Host: 127.0.0.1
+  Database: database
+  Username: DestiAPI
+  Password: '12345'
+  Port: 3306
+############################################################
+# +------------------------------------------------------+ #
+# |                 Homes & PWarps                       | #
+# +------------------------------------------------------+ #
+############################################################
+SetHome-Multiple:
+  default: 1
+  rank2: 2
+  rank3: 3
+  rank4: 4
+  rank5: 5
+  rank6: 6
+  rank7: 7
+  rank8: 8
+  rank9: 9
+  rank10: 10
+  rank11: 11
+  rank12: 12
+  rank13: 13
+  rank14: 14
+  rank15: 15
+  eternal: 15
+  mythic: 20
+  immortal: 25
+  god: 30
+############################################################
+# +------------------------------------------------------+ #
+# |                   Economy                            | #
+# +------------------------------------------------------+ #
+############################################################
+Settings:
+  DefaultMoney: 300
+  CurrencyPlural: 'Dollars'
+  CurrencySingular: 'Dollar'
+  CurrencyFormat: '%money% %currency%'
+EconomyMySQL: # I still use SQL if you dont set this up
+  Enabled: false
+  AutoReconnect: false
+  Host: 127.0.0.1
+  Database: database
+  Username: DestiAPI
+  Password: '12345'
+  Port: 3306
+############################################################
+# +------------------------------------------------------+ #
+# |                     Tab                              | #
+# +------------------------------------------------------+ #
+############################################################
+Tab-Order:
+  - "owner"
+  - "developer"
+  - "admin"
+  - "moderator"
+  - "titan"
+  - "god"
+  - "immortal"
+  - "mythic"
+  - "eternal"
+  - "default"
+PlayerName:
+  BelowName: "&f%player_health%&4❤"
+  Format: "%vault_prefix%⚡ %player_name%"
+  RefreshRate: 20
+Header:
+  Text: "<gray>                                                      <gray>\n<color:#B22222><b>ᴅᴇꜱᴛɪ</b><color:#808080><b>ᴄᴜʙᴇ</b>\n<gray>ᴛᴏᴛᴀʟ: <white>%premiumvanish_playercount%\n\n<gray><b>↘</b> <red><u>ᴏɴʟɪɴᴇ ᴘʟᴀʏᴇʀꜱ <gray><b>↙</b>\n"
+  RefreshRate: 100
+Footer:
+  Text: "\n%core_animation:maintitles%\n\n%core_animation:descriptions%\n%core_animation:descriptions2%\n\n%core_animation:links%\n%core_animation:animatedline%"
+  RefreshRate: 100
+Animations:
+  maintitles:
+    Animations:
+      - '<color:#2E8B57><b>ᴠᴏᴛᴇ</b> <dark_gray>▪ <color:#A9A9A9>ꜱᴛᴏʀᴇ <dark_gray>▪ <color:#A9A9A9>ᴅɪꜱᴄᴏʀᴅ <dark_gray>▪ <color:#A9A9A9>ɪɴꜰᴏ'
+      - '<color:#A9A9A9>ᴠᴏᴛᴇ <dark_gray>▪ <color:#CD5C5C><b>ꜱᴛᴏʀᴇ</b> <dark_gray>▪ <color:#A9A9A9>ᴅɪꜱᴄᴏʀᴅ <dark_gray>▪ <color:#A9A9A9>ɪɴꜰᴏ'
+      - '<color:#A9A9A9>ᴠᴏᴛᴇ <dark_gray>▪ <color:#A9A9A9>ꜱᴛᴏʀᴇ <dark_gray>▪ <color:#5865F2><b>ᴅɪꜱᴄᴏʀᴅ</b> <dark_gray>▪ <color:#A9A9A9>ɪɴꜰᴏ'
+      - '<color:#A9A9A9>ᴠᴏᴛᴇ <dark_gray>▪ <color:#A9A9A9>ꜱᴛᴏʀᴇ <dark_gray>▪ <color:#A9A9A9>ᴅɪꜱᴄᴏʀᴅ <dark_gray>▪ <color:#FFFF66><b>ɪɴꜰᴏ</b>'
+  descriptions:
+    Animations:
+      - '<color:#DCDCDC>ɢᴇᴛ ꜰʀᴇᴇ ᴄʀᴀᴛᴇꜱ ᴀɴᴅ ᴍᴏɴᴇʏ ᴛʜʀᴏᴜɢʜ'
+      - '<color:#DCDCDC>ᴜɴʟᴏᴄᴋ ᴇxᴄɪᴛɪɴɢ ᴘᴇʀᴋꜱ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ʙʏ'
+      - '<color:#DCDCDC>ᴊᴏɪɴ ᴛʜᴇ ᴏꜰꜰɪᴄɪᴀʟ ᴅɪꜱᴄᴏʀᴅ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ,'
+      - '<color:#DCDCDC>ᴅᴇꜱᴛɪᴄᴜʙᴇ ɪꜱ ᴀ ɴᴇᴡ ꜱᴜʀᴠɪᴠᴀʟ ꜱᴇʀᴠᴇʀ'
+  descriptions2:
+    Animations:
+      - '<color:#DCDCDC>ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴛʜᴇ ꜱᴇʀᴠᴇʀ ᴜꜱɪɴɢ /ᴠᴏᴛᴇ!'
+      - '<color:#DCDCDC>ʙᴜʏɪɴɢ ʀᴀɴᴋꜱ ᴀɴᴅ ᴋᴇʏꜱ ᴏɴ ᴏᴜʀ ꜱᴛᴏʀᴇ!'
+      - '<color:#DCDCDC>ɢɪᴠᴇᴀᴡᴀʏꜱ, ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛꜱ ᴀɴᴅ ᴍᴏʀᴇ!'
+      - '<color:#DCDCDC>ᴡʜᴇʀᴇ ᴡᴇ ᴠᴀʟᴜᴇ ᴏᴜʀ ᴘʟᴀʏᴇʀꜱ ꜰɪʀꜱᴛ!'
+  links:
+    Animations:
+      - '<#2E8B57>/ᴠᴏᴛᴇ'
+      - '<#CD5C5C>ꜱᴛᴏʀᴇ.ᴅᴇꜱᴛɪᴄᴜʙᴇ.ᴄᴏᴍ'
+      - '<#5865F2>ᴅɪꜱᴄᴏʀᴅ.ᴅᴇꜱᴛɪᴄᴜʙᴇ.ᴄᴏᴍ'
+      - '<#FFFF66>ᴘʟᴀʏ.ᴅᴇꜱᴛɪᴄᴜʙᴇ.ᴄᴏᴍ'
+  animatedline:
+    Animations:
+      - '<white><b><st>----<gray>------------</b>'
+      - '<white><b><st>--------<gray>--------</b>'
+      - '<white><b><st>------------<gray>----</b>'
+      - '<white><b><st>----------------</b>'
+############################################################
+# +------------------------------------------------------+ #
+# |                     Badges                           | #
+# +------------------------------------------------------+ #
+############################################################: 
+Badges:
+  Default: "member"
+############################################################
+# +------------------------------------------------------+ #
+# |                     Listeners                        | #
+# +------------------------------------------------------+ #
+############################################################
+PluginHider:
+  Enabled: false
+  BlockColonCommands: true
+  ToSend:
+    - "help"
+    - ""
+DeathMessages:
+  Enabled: true
+MineableSpawners:
+  Enabled: true
+  SpawnerFormat: "&7» &c&l%spawner% Spawner &7«"
+  SpawnerLoreFormat:
+    - '&7Place this down to'
+    - '&7start spawning entities'
+OreAnnouncer:
+  Enabled: true
+Sit:
+  Enabled: true

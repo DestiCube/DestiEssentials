@@ -1,0 +1,10 @@
+{
+  "badges": [
+    {
+      "name": "default",
+      "badge": "&r௺",
+      "description": "&7Member's badge",
+      "permission": "desticore.badge.default"
+    }
+  ]
+}
